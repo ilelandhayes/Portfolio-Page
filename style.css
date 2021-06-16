@@ -58,7 +58,7 @@ a {
 }
 
 .hero {
-    height: 285px;
+    height: 350px;
     width: 100%;
     background-image: url("./img/Hero.png");
     background-size: cover;
@@ -70,7 +70,7 @@ a {
    font-size: 32px;
    text-align: center;
    float: right;
-   margin-top: 200px;
+   margin-top: 250px;
    margin-right: 50px;
 }
 
@@ -86,7 +86,7 @@ a {
 
 .header-one {
     height: 200px;
-    width: 150px;
+    width: 200px;
     position: relative;
     border-right: 8px solid black;
     font-size: 32px;
@@ -101,18 +101,19 @@ a {
 }
 
 .main-two {
-    height: 700px;
+    height: 800px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
     justify-content: center;
     justify-content: space-evenly;
+    
 }
 
 .header-two {
-    height: 700px;
-    width: 150px;
+    height: 800px;
+    width: 200px;
     position: relative;
     border-right: 8px solid black;
     font-size: 32px;
@@ -120,14 +121,81 @@ a {
     padding-right: 10px; 
 }
 
-.surf-report {
-    height: 300px;
+.work-section {
+    height: 800px;
     width: 800px;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
+
+.surf-report {
+    height: 300px;
+    width: 725px;
+    border: 5px solid teal;    
+}
+
 .led-wall {
     height: 150px;
-    width: 400px;
+    width: 350px;
+    border: 5px solid teal; 
+}
+
+.code {
+    height: 150px;
+    width: 350px;
+    border: 5px solid teal;
+}
+
+.pastal-puzzles {
+    height: 150px;
+    width: 350px;
+    border: 5px solid teal;
+}
+
+.run-buddy {
+    height: 150px;
+    width: 350px;
+    border: 5px solid teal;
+}
+
+.page-footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    justify-content: space-evenly;
+}
+
+.footer-section {
+    height: 200px;
+    width: 200px;
     position: relative;
+    border-right: 8px solid black;
+    font-size: 28px;
+    text-align: right;
+    padding-right: 10px; 
+}
+
+.contact-info {
+    height: 200px;
+    width: 800px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.personal-link {
+    font-size: 23px;
+    font-family: ‘Trebuchet MS’, ‘Lucida Sans Unicode’, ‘Lucida Grande’, ‘Lucida Sans’, Arial, sans-serif;
+    text-decoration: 2px underline;
+    color: black;
 }
 
