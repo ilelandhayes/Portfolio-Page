@@ -92,6 +92,7 @@ h1 {
     font-size: 32px;
     text-align: right;
     padding-right: 10px;
+    color: teal;
 }
 
 .content {
@@ -118,7 +119,8 @@ h1 {
     border-right: 8px solid black;
     font-size: 32px;
     text-align: right;
-    padding-right: 10px; 
+    padding-right: 10px;
+    color: teal; 
 }
 
 .work-section {
@@ -224,6 +226,7 @@ h1 {
     font-size: 28px;
     text-align: right;
     padding-right: 10px; 
+    color: teal;
 }
 
 .contact-info {
