@@ -10,6 +10,8 @@
     * A work section that contains my best projects I have completed
     * Last a contact section that has my personal contact info for anyone's disposel
 
+![Website View](./img/website-screenshot.png)
+
 # GitHub Pages Deployment Link
 
 https://ilelandhayes.github.io/Portfolio-Page/
