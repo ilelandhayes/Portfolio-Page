@@ -99,13 +99,7 @@ h1 {
     text-align: right;
     padding-right: 10px;
     color: #65CCB8; 
-}
-
-h4 {
-    text-align: center;
-    z-index: 1;
-    color: white;
-}   
+}  
 
 .work-section {
     height: 800px;
@@ -189,8 +183,64 @@ h4 {
     {
       opacity: 1;
       filter: alpha(opacity=100);
-}    
+} 
 
+#container1 {
+    position: relative;
+    height: 300px;
+    width: 750px;
+}
+#container2 {
+    position: relative;
+    height: 150px;
+    width: 350px;
+}
+#container3 {
+    position: relative;
+    height: 150px;
+    width: 350px;
+}
+#container4 {
+    position: relative;
+    height: 150px;
+    width: 350px;
+}
+#container5 {
+    position: relative;
+    height: 150px;
+    width: 350px;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
+#container1:hover .title {
+    opacity: 1;
+}
+#container2:hover .title {
+    opacity: 1;
+}
+#container3:hover .title {
+    opacity: 1;
+}
+#container4:hover .title {
+    opacity: 1;
+}
+#container5:hover .title {
+    opacity: 1;
+}
 
 .page-footer {
     height: 200px;
@@ -224,7 +274,7 @@ h4 {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 690px) {
     .tabs {
         display: none;
     }
